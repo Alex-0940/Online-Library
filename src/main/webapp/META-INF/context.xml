@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+   <Context antiJARLocking="true" path="/DBConnectionPoolTest">
+<Resource name="jdbc/library"
+        auth="Container"
+        type="javax.sql.DataSource"
+        username="root"
+        password="a1980999"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://localhost:3306/library"
+        maxActive="8"
+        maxIdle="3"/>
+           </Context>
+        
